@@ -138,7 +138,7 @@ const Carousel = () => {
               <div className="absolute bottom-4">
                 <h2 className="text-center text-6xl font-bold pb-12">{slide.title}</h2>
                 <div className="flex">
-                    <div className="w-3/4">
+                    <div className="w-1/2 md:w-3/4">
                         <h3 className="text-xl font-bold pb-2">{slide.subtitle}</h3>
                         <p className="text-xs">{slide.description}</p>
                     </div>
