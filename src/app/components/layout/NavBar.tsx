@@ -78,22 +78,22 @@ const NavBar = () => {
             <MdHome className="size-9" /> <p>Home</p>
             </li>
             <li className="flex items-center gap-3">
-            <MdOutlineImage className="size-9" /> <p>Picture</p>
+            <MdOutlineImage className="size-9" /> <p>Generate Image</p>
             </li>
             <li className="flex items-center gap-3">
-            <MdVideocam className="size-9" /> <p>Video</p>
+            <MdVideocam className="size-9" /> <p>Generate Video</p>
             </li>
             <li className="flex items-center gap-3">
-            <MdAutoFixHigh className="size-9" /> <p>Edit</p>
+            <MdAutoFixHigh className="size-9" /> <p>Ai Assistant</p>
             </li>
             <li className="flex items-center gap-3">
-            <MdOutlineBrush className="size-9" /> <p>Brush</p>
+            <MdOutlineBrush className="size-9" /> <p>Paint</p>
             </li>
             <li className="flex items-center gap-3">
-            <MdRocket className="size-9" /> <p>Rocket</p>
+            <MdRocket className="size-9" /> <p>Explore</p>
             </li>
             <li className="flex items-center gap-3">
-            <MdFolder className="size-9" /> <p>Folder</p>
+            <MdFolder className="size-9" /> <p>Explore Projects</p>
             </li>
             <li className="flex items-center gap-3">
             <MdOutlineCollections className="size-9" /> <p>Gallery</p>
