@@ -18,7 +18,7 @@ type Tools = {
     description: string,
 }
 
-let tools : Tools[] = [
+const tools : Tools[] = [
     {
         icon: MdOutlineImage,
         iconBg: 'bg-linear-to-b from-gray-800 to-gray-200',
@@ -103,7 +103,7 @@ const Generate = () => {
                            <p className="text-gray-500">{tool.description}</p>
                     </div>
                     <div>
-                        <button className="bg-gray-100 py-1 px-1.5 rounded-xl">Open</button>
+                        <button className="bg-secbackground py-1 px-1.5 rounded-xl">Open</button>
                     </div>
                     
                 </div>

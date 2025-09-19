@@ -37,25 +37,25 @@ const NavBar = () => {
             <MdOutlineMenu className='size-9'/>
         </button>
        
-        <ul className='lg:flex items-center gap-5 bg-gray-100 rounded-lg p-1.5 hidden'>
+        <ul className='lg:flex items-center gap-5 bg-secbackground rounded-lg p-1.5 hidden'>
             <li className='bg-white rounded-lg px-2.5 py-1'> <MdHome className='size-7 '/> </li>
-            <li> <MdOutlineImage className='size-7'/> </li>
-            <li> <MdVideocam className='size-7'/> </li>
-            <li> <MdAutoFixHigh className='size-7'/> </li>
-            <li> <MdOutlineBrush className='size-7'/> </li>
-            <li> <MdRocket className='size-7'/> </li>
-            <li> <MdFolder className='size-7'/> </li>
+            <li> <MdOutlineImage className='size-7 text-foreground'/> </li>
+            <li> <MdVideocam className='size-7 text-foreground'/> </li>
+            <li> <MdAutoFixHigh className='size-7 text-foreground'/> </li>
+            <li> <MdOutlineBrush className='size-7 text-foreground'/> </li>
+            <li> <MdRocket className='size-7 text-foreground'/> </li>
+            <li> <MdFolder className='size-7 text-foreground'/> </li>
         </ul>
         <div className='lg:flex items-center gap-3 hidden'>
-            <div className='flex items-center gap-1 bg-gray-100 p-1.5 rounded-lg'>
+            <div className='flex items-center gap-1 bg-secbackground text-foreground p-1.5 rounded-lg'>
                 <MdOutlineCollections/>
                 <p>Gallery</p>
             </div>
-            <div className='flex items-center gap-1 bg-gray-100 p-1.5 rounded-lg'>
+            <div className='flex items-center gap-1 bg-secbackground text-foreground p-1.5 rounded-lg'>
                 <MdOutlineHeadsetMic/>
                 <p>Support</p>
             </div>
-            <MdNotifications/>
+            <MdNotifications className='text-foreground'/>
             <Themetoggle/>
             <div className='size-8 bg-linear-140 from-pink-300 via-blue-300 to-blue-100 rounded-full'></div>
         </div>
@@ -63,7 +63,7 @@ const NavBar = () => {
         {/* Mobile Navigation */} 
         <div
             className={`fixed top-0 left-0 h-screen w-full bg-gray-200 z-50 lg:hidden text-base p-3 rounded-t-2xl transform transition-transform duration-500 ${
-                isOpen ? "translate-y-1/6" : "translate-y-full"
+                isOpen ? "translate-y-0" : "translate-y-full"
             }`}
             >
         <div className='flex items-center justify-between'>

@@ -5,7 +5,6 @@ const Footer = () => {
         <div className="flex items-center">
             <div className="mr-1">
                 <Image src="/kollage-logo.svg" alt="Krea Ai logo" width="35" height="35"/>
-                <img  />
             </div>
             <h3 className="text-xl">Krea Ai</h3>
         </div>

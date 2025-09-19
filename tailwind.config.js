@@ -1,9 +1,13 @@
-/** @type {import('tailwindcss').Config} */
 module.exports = {
-  darkMode: "class",
-  content: [],
+  darkMode: "class", // works with next-themes
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        background: "var(--background)",
+        foreground: "var(--foreground)",
+        secbackground: "var(--secbackground)",
+      },
+    },
   },
   plugins: [],
 };

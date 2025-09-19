@@ -1,9 +1,9 @@
-
+import Image from "next/image"
 
 const Logo = () => {
   return (
     <div>
-        <img className="mr-6" src="/kollage-logo.svg" alt="Logo" width="35" height="35" />
+        <Image className="mr-6" src="/kollage-logo.svg" alt="Krea Logo" width="35" height="35" />
     </div>
     
   )
