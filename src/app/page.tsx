@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <div className={`min-h-screen transition-colors duration-200`} lang='en'>
       {/* Background and text colors are now handled by Tailwind's dark mode classes */}
-      <div className='mt-3'>
+      <div className='mt-3 bg-background text-foreground'>
         <div className='mx-6'>
           <NavBar/>
           <Carousel/>

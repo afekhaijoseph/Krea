@@ -23,7 +23,7 @@ const NavBar = () => {
     const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className='flex items-center justify-between text-sm dark:bg-black text-black dark:text-white'>
+    <div className='flex items-center justify-between text-sm'>
         <div className='flex items-center'>
             <Logo/>
             <div className='flex items-center gap-2'>
