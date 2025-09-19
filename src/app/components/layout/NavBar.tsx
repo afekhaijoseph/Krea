@@ -62,12 +62,12 @@ const NavBar = () => {
 
         {/* Mobile Navigation */} 
         <div
-            className={`fixed top-0 left-0 h-screen w-full bg-gray-200 z-50 lg:hidden text-base p-3 rounded-t-2xl transform transition-transform duration-500 ${
+            className={`fixed top-0 left-0 h-screen w-full bg-background text-foreground z-50 lg:hidden text-base p-3 rounded-t-2xl transform transition-transform duration-500 ${
                 isOpen ? "translate-y-0" : "translate-y-full"
             }`}
             >
         <div className='flex items-center justify-between'>
-            <img src="/kollage-logo.svg" alt="Krea Logo" width="35" height="35" />
+            <Logo/>
             <button onClick={() => setIsOpen((prev) => !prev)}>
                 <MdOutlineClose className='size-12'/>
             </button>
@@ -104,8 +104,8 @@ const NavBar = () => {
             <li className="flex items-center gap-3">
             <MdNotifications className="size-9" /> <p>Notifications</p>
             </li>
-            <li className="flex items-center gap-3">
-            <Themetoggle/> <p>Theme</p>
+            <li className="flex self-center mt-6 gap-3">
+            <Themetoggle/>
             </li>
         </ul>
         </div>
